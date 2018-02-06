@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+body{
+	background: #ece9e6; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ece9e6, #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ece9e6, #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	color: black;
+	font-family: 'Dosis', sans-serif;
+}
+
+hr {
+	margin: 25px 0;
+	height: 1px;
+	border: 0;
+	background: black;
+	background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+}
+
+header{
+	margin-bottom: 20px;
+}
+
+nav{
+	color: white;
+}
+
+nav .brand-logo{
+	margin-left: 20px;
+}
+
+
+.w-home-list-movies > div div:nth-child(1), .w-home-list-movies > div div:nth-child(3){
+	display: inline-block;
+	position: relative;
+	padding: 1px !important;
+}
+
+.w-home-list-movies > div div:nth-child(1){
+	top: 24px;
+	color: white;
+	background-color: rgba(0,50,120,0.7);
+	text-align: right;
+	float: right;
+}
+
+.w-home-list-movies > div div:nth-child(3){
+	top: -30px;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+	width: 100%;
+}
+
+/*
+	@movies
+*/
+
+.w-home-list-posts{
+	color: white;
+}
+
+.w-home-list-posts > div{
+	height: 350px !important;
+	margin-bottom: 10px !important;
+}
+
+.w-home-list-posts img{
+	width: 300px !important;
+	height: 260px !important;
+}
+
+.w-home-list-posts > div div:nth-child(3){
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	text-align: center;
+	width: 100%;
+}
+
+.w-home-list-posts > div > div:nth-child(1){
+	display: inline-block;
+	position: relative;
+	padding: 1px !important;
+	top:24px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.w-home-list-posts > div div:nth-child(3){
+	padding: 1px !important;
+	text-align: center;
+}
+
+
+/*
+	@Post styles
+*/
+
+
+.w-post-title{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+/*
+@footer
+*/
+
+
+footer > div {
+	color: white;
+	margin-top: 20px !important;
+	margin-bottom: 0px !important;
+	background: #232526; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #232526, #414345); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #232526, #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+footer > div > div > div{
+	padding: 20px;
+}
+
+
+/*
+	@pagination
+*/
+
+.pagination .active{
+	background-color: #0277bd !important;
+}
+
+
+/*
+	@Helpers
+*/
+
+.fb_iframe_widget,
+.fb_iframe_widget span,
+.fb_iframe_widget span iframe[style] {
+  min-width: 100% !important;
+  width: 100% !important;
+}
+
+
+/*
+	@Search
+*/
+#search{
+	display: none;
+	transition: all 1s ease;
+}
+
+#search > div > label > i{
+	margin-top: 25px;
+}
+
+.all_nav{
+	transition: all 1s ease;
+}
+
+
+/*
+	@Post Conent
+*/
+.w-post-content strong,b{
+	font-weight: bold !important;
+}

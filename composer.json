@@ -1,0 +1,7 @@
+{
+    "require": {
+        "izniburak/pdox": "^1.1",
+        "delight-im/auth": "^6.1",
+		"fenom/fenom": "2.*"
+    }
+}

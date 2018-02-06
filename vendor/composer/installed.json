@@ -1,0 +1,312 @@
+[
+    {
+        "name": "delight-im/db",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/delight-im/PHP-DB.git",
+            "reference": "df99ef7c2e86c7ce206647ffe8ba74447c075b57"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/delight-im/PHP-DB/zipball/df99ef7c2e86c7ce206647ffe8ba74447c075b57",
+            "reference": "df99ef7c2e86c7ce206647ffe8ba74447c075b57",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": ">=5.6.0"
+        },
+        "time": "2017-03-18T20:51:59+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Delight\\Db\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Safe and convenient SQL database access in a driver-agnostic way",
+        "homepage": "https://github.com/delight-im/PHP-DB",
+        "keywords": [
+            "database",
+            "mysql",
+            "pdo",
+            "pgsql",
+            "postgresql",
+            "sql",
+            "sqlite"
+        ]
+    },
+    {
+        "name": "delight-im/http",
+        "version": "v2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/delight-im/PHP-HTTP.git",
+            "reference": "0a19a72a7eac8b1301aa972fb20cff494ac43e09"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/delight-im/PHP-HTTP/zipball/0a19a72a7eac8b1301aa972fb20cff494ac43e09",
+            "reference": "0a19a72a7eac8b1301aa972fb20cff494ac43e09",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-07-21T15:05:01+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Delight\\Http\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Hypertext Transfer Protocol (HTTP) utilities for PHP",
+        "homepage": "https://github.com/delight-im/PHP-HTTP",
+        "keywords": [
+            "headers",
+            "http",
+            "https"
+        ]
+    },
+    {
+        "name": "delight-im/cookie",
+        "version": "v2.1.3",
+        "version_normalized": "2.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/delight-im/PHP-Cookie.git",
+            "reference": "a66c8a02aa4776c4b7d3d04c695411f73e04e1eb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/delight-im/PHP-Cookie/zipball/a66c8a02aa4776c4b7d3d04c695411f73e04e1eb",
+            "reference": "a66c8a02aa4776c4b7d3d04c695411f73e04e1eb",
+            "shasum": ""
+        },
+        "require": {
+            "delight-im/http": "^2.0",
+            "php": ">=5.4.0"
+        },
+        "time": "2017-07-26T14:03:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Delight\\Cookie\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Modern cookie management for PHP",
+        "homepage": "https://github.com/delight-im/PHP-Cookie",
+        "keywords": [
+            "cookie",
+            "cookies",
+            "csrf",
+            "http",
+            "same-site",
+            "samesite",
+            "xss"
+        ]
+    },
+    {
+        "name": "delight-im/base64",
+        "version": "v1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/delight-im/PHP-Base64.git",
+            "reference": "687b2a49f663e162030a8d27b32838bbe7f91c78"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/delight-im/PHP-Base64/zipball/687b2a49f663e162030a8d27b32838bbe7f91c78",
+            "reference": "687b2a49f663e162030a8d27b32838bbe7f91c78",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-07-24T18:59:51+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Delight\\Base64\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Simple and convenient Base64 encoding and decoding for PHP",
+        "homepage": "https://github.com/delight-im/PHP-Base64",
+        "keywords": [
+            "URL-safe",
+            "base-64",
+            "base64",
+            "decode",
+            "decoding",
+            "encode",
+            "encoding",
+            "url"
+        ]
+    },
+    {
+        "name": "delight-im/auth",
+        "version": "v6.1.0",
+        "version_normalized": "6.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/delight-im/PHP-Auth.git",
+            "reference": "0b67f3d1e2e533c1fe36a14acbff2a4fbf294be5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/delight-im/PHP-Auth/zipball/0b67f3d1e2e533c1fe36a14acbff2a4fbf294be5",
+            "reference": "0b67f3d1e2e533c1fe36a14acbff2a4fbf294be5",
+            "shasum": ""
+        },
+        "require": {
+            "delight-im/base64": "^1.0",
+            "delight-im/cookie": "^2.1",
+            "delight-im/db": "^1.2",
+            "ext-openssl": "*",
+            "php": ">=5.6.0"
+        },
+        "time": "2017-09-18T14:10:47+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Delight\\Auth\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Authentication for PHP. Simple, lightweight and secure.",
+        "homepage": "https://github.com/delight-im/PHP-Auth",
+        "keywords": [
+            "Authentication",
+            "auth",
+            "login",
+            "security"
+        ]
+    },
+    {
+        "name": "izniburak/pdox",
+        "version": "v1.1.3",
+        "version_normalized": "1.1.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/izniburak/pdox.git",
+            "reference": "33199de419b0bea9d8b4942fc4c36e393ac4ae0f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/izniburak/pdox/zipball/33199de419b0bea9d8b4942fc4c36e393ac4ae0f",
+            "reference": "33199de419b0bea9d8b4942fc4c36e393ac4ae0f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-pdo": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2017-08-14T08:10:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Buki\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "İzni Burak Demirtaş",
+                "email": "info@burakdemirtas.org",
+                "homepage": "http://burakdemirtas.org"
+            }
+        ],
+        "description": "Useful Query Builder, PDO Class for PHP. A simple access to your SQL records.",
+        "homepage": "https://github.com/izniburak/PDOx",
+        "keywords": [
+            "builder",
+            "pdo",
+            "php",
+            "query",
+            "sql"
+        ]
+    },
+    {
+        "name": "fenom/fenom",
+        "version": "2.11.8",
+        "version_normalized": "2.11.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fenom-template/fenom.git",
+            "reference": "2d968ab8d07791eefc5ada419b13fa884cd0d21b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fenom-template/fenom/zipball/2d968ab8d07791eefc5ada419b13fa884cd0d21b",
+            "reference": "2d968ab8d07791eefc5ada419b13fa884cd0d21b",
+            "shasum": ""
+        },
+        "require": {
+            "ext-tokenizer": "*",
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "<6.0",
+            "satooshi/php-coveralls": "*"
+        },
+        "time": "2017-06-29T10:49:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Fenom\\": "src/"
+            },
+            "classmap": [
+                "src/Fenom.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3"
+        ],
+        "authors": [
+            {
+                "name": "Ivan Shalganov",
+                "email": "a.cobest@gmail.com"
+            }
+        ],
+        "description": "Fenom - excellent template engine for PHP",
+        "keywords": [
+            "fenom",
+            "template",
+            "templater",
+            "templating"
+        ]
+    }
+]

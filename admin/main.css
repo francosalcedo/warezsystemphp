@@ -1,0 +1,21 @@
+html{
+	height: 100%;
+}
+body{
+	background: radial-gradient(#302e2e,black);
+	color: gray;
+}
+.logn-error{
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.login{
+	color: white !important;
+}
+.editor{
+	color: black;
+}
+.x{
+	float: right;
+}

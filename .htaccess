@@ -1,0 +1,29 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#RewriteCond %{HTTP_HOST} ^www\.descargarwarez\.pro [NC]
+#RewriteRule ^(.*)$ http://descargarwarez.pro/$1 [L,R=301]
+
+RewriteRule sitemap.xml$ sitemap.php [L]
+
+RewriteRule post/(.*?)/([0-9]+)-(.+?) index.php?type=post&category=$1&id=$2 [L,QSA]
+RewriteRule pelicula/(.*?)/([0-9]+)-(.+?) index.php?type=movie&category=$1&id=$2 [L,QSA]
+
+RewriteRule categoria/peliculas/(.*?)$ index.php?type=movies&category=$1 [L,QSA]
+RewriteRule categoria/(.*)$ index.php?type=category&category=$1 [L,QSA]
+
+#QSA = permite variables ?aa=bb <-- en las urls
+#NC = url exacta
+
+RewriteRule buscar/$ index.php?type=search [L,QSA]
+
+
+#post/category/id-slug
+#pelicula/category/id-slug
+
+#post 		=> category
+#pelicula 	=> movie
